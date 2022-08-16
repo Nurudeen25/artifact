@@ -12,7 +12,7 @@ jobs:
       - name: Check out my code
         uses: actions/checkout@v2
       - name: Upload the artifact
-        uses: actions/upload-artfact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: ${{ env.ARTIFACT_NAME }}
           PATH: .
