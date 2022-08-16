@@ -16,13 +16,4 @@ jobs:
         with:
           name: ${{ env.ARTIFACT_NAME }}
           PATH: .
-   main:
-    runs-on: windows-latest
-    steps:
-      - name: Check out my code
-        uses: actions/checkout@v2
-      - name: Upload the artifact
-        uses: actions/upload-artfactv@2
-        with:
-          name: ${{ env.ARTIFACT_NAME }}
-          PATH: .
+
